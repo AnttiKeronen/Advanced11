@@ -4,7 +4,11 @@ module.exports = {
   testMatch: ["<rootDir>/src/__test__/**/*.test.tsx"],
   setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
   transform: {
-  "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.jest.json" }]
-}
+    "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.jest.json" }]
+  },
 
+  reporters: [
+    "default",
+    ["jest-junit", { outputDirectory: "test-results", outputName: "junit.xml" }]
+  ]
 };
