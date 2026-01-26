@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="13.257">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:45:05" time="10.942" tests="1">
-    <testcase classname=" renders App" name=" renders App" time="0.219">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="8.062">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:49:01" time="5.766" tests="1">
+    <testcase classname=" Fetch joke in home page" name=" Fetch joke in home page" time="0.122">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:45:05" time="10.961" tests="1">
-    <testcase classname=" renders App" name=" renders App" time="0.238">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:49:01" time="5.823" tests="1">
+    <testcase classname=" Fetch joke in home page" name=" Fetch joke in home page" time="0.135">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:45:05" time="10.965" tests="1">
-    <testcase classname=" renders App" name=" renders App" time="0.222">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:49:01" time="5.786" tests="1">
+    <testcase classname=" Fetch joke in home page" name=" Fetch joke in home page" time="0.146">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:45:05" time="11.059" tests="1">
-    <testcase classname=" renders App" name=" renders App" time="0.299">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:49:01" time="5.828" tests="1">
+    <testcase classname=" Fetch joke in home page" name=" Fetch joke in home page" time="0.173">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:45:05" time="10.989" tests="1">
-    <testcase classname=" renders App" name=" renders App" time="0.266">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-26T16:49:01" time="5.93" tests="1">
+    <testcase classname=" Fetch joke in home page" name=" Fetch joke in home page" time="0.182">
     </testcase>
   </testsuite>
 </testsuites>
