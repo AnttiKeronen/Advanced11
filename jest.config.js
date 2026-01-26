@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   preset: "ts-jest",
   testEnvironment: "jsdom",
   testMatch: ["<rootDir>/src/__test__/**/*.test.tsx"],
@@ -6,7 +6,6 @@ module.exports = {
   transform: {
     "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.jest.json" }]
   },
-
   reporters: [
     "default",
     ["jest-junit", { outputDirectory: "test-results", outputName: "junit.xml" }]
