@@ -24,7 +24,7 @@ const FrontPage = ({ saveJoke }: Props) => {
   useEffect(() => { fetchJoke(); }, []);
   return (
     <div style={{ padding: 16 }}>
-      <Button variant="contained" onClick={fetchJoke}>Get new joke</Button>
+      <Button variant="contained" onClick={fetchJoke}>Get Joke</Button>
       {loading && <Typography>Loading a joke...</Typography>}
       {joke && (
         <Card key={joke.id} sx={{ marginTop: 2 }}>
